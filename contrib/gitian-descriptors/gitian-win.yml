@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/ALQOCRYPTO/ALQO.git"
+- "url": "https://github.com/RivnePixel/ALQO.git"
   "dir": "alqo"
 files: []
 script: |

@@ -44,7 +44,7 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/ALQOCRYPTO/ALQO
+        git clone https://github.com/RivnePixel/ALQO
         cd ALQO
 
 2.  Build alqod:
