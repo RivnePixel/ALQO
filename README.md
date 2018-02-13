@@ -56,4 +56,4 @@ _For more information check out our whitepaper at [alqo.org/whitepaper.pdf](http
 
 Alternatively we have added a non .pdf Version into our Github. You can find it in the ALQO Github Wiki.
 
-[https://github.com/ALQOCRYPTO/ALQO/wiki](https://github.com/ALQOCRYPTO/ALQO/wiki)
+[https://github.com/RivnePixel/ALQO/wiki](https://github.com/RivnePixel/ALQO/wiki)
