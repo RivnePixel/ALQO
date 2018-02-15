@@ -112,7 +112,7 @@ public:
         nMasternodeCountDrift = 20;
 		nMasternodeColleteralLimxDev = 10000; //Params().MasternodeColleteralLimxDev()
         nModifierUpdateBlock = 1; // we use the version 2 for dmd
-        //nMaxMoneyOut = 100000000 * COIN;
+        nMaxMoneyOut = 100000000 * COIN;
 
         const char* pszTimestamp = "My coin start 14/02/2018 for work";
         CMutableTransaction txNew;
@@ -196,14 +196,13 @@ public:
         nLastPOWBlock = 200;
         nMaturity = 15;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
-        //nMaxMoneyOut = 100000000 * COIN;
+        nMaxMoneyOut = 100000000 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1518613202;
-        genesis.nNonce = 85930;
+        genesis.nNonce = 1648745;
 
-
-        hashGenesisBlock = genesis.GetHash();
+		hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x00000485d3da86342a96e15d9c495b16790eb8a6d31f009e1acac21b77fc07ce"));
 
         vFixedSeeds.clear();
@@ -270,7 +269,7 @@ public:
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1518613203;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 1302956;
+        genesis.nNonce = 1526669;
 		
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 55701;
