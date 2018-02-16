@@ -1,6 +1,6 @@
 PACKAGE=qt
 $(package)_version=5.5.0
-$(package)_download_path=http://download.qt.io/archive/qt/5.5/$($(package)_version)/submodules
+$(package)_download_path=https://download.qt.io/archive/qt/5.5/$($(package)_version)/submodules
 $(package)_suffix=qt5-opensource-src-$($(package)_version).tar.gz
 $(package)_file_name=qtbase-$($(package)_suffix)
 $(package)_sha256_hash=03704c8f274e412100d4cc515f1d89faed0d89f843b8a4adfad56f71dacc4159
