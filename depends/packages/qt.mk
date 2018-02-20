@@ -1,6 +1,6 @@
 PACKAGE=qt
 $(package)_version=5.5.0
-$(package)_download_path=http://download.qt.io/archive/qt/5.5/5.5.0/submodules/
+$(package)_download_path=http://ftp.vim.org/languages/qt/archive/qt/5.5/5.5.0/submodules/
 $(package)_suffix=qt5-opensource-src-5.5.0.tar.gz
 $(package)_file_name=qtbase-$($(package)_suffix)
 $(package)_sha256_hash=03704c8f274e412100d4cc515f1d89faed0d89f843b8a4adfad56f71dacc4159
