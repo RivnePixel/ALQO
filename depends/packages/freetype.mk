@@ -1,6 +1,6 @@
 package=freetype
 $(package)_version=2.6.3
-$(package)_download_path=http://download.savannah.gnu.org/releases/$(package)
+$(package)_download_path=http://download.savannah.gnu.org/releases/$(package)/
 $(package)_file_name=$(package)-$($(package)_version).tar.bz2
 $(package)_sha256_hash=371e707aa522acf5b15ce93f11183c725b8ed1ee8546d7b3af549863045863a2
 

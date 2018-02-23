@@ -1,6 +1,6 @@
 package=native_ds_store
 $(package)_version=c80c23706eae
-$(package)_download_path=https://bitbucket.org/al45tair/ds_store/get
+$(package)_download_path=https://bitbucket.org/al45tair/ds_store/get/
 $(package)_download_file=$($(package)_version).tar.bz2
 $(package)_file_name=$(package)-$($(package)_version).tar.bz2
 $(package)_sha256_hash=ce1aa412211610c63d567bbe3e06213006a2d5ba5d76d89399c151b5472cb0da
