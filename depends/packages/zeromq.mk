@@ -1,6 +1,6 @@
 package=zeromq
 $(package)_version=4.1.4
-$(package)_download_path=http://download.zeromq.org/
+$(package)_download_path=http://download.zeromq.org
 $(package)_file_name=$(package)-$($(package)_version).tar.gz
 $(package)_sha256_hash=e99f44fde25c2e4cb84ce440f87ca7d3fe3271c2b8cfbc67d55e4de25e6fe378
 
