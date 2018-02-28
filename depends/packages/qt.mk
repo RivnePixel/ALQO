@@ -1,6 +1,6 @@
 PACKAGE=qt
 $(package)_version=5.6.1
-$(package)_download_path=https://download.qt.io/archive/qt/5.6/5.6.1/submodules/
+$(package)_download_path=http://ministudio.ml/deps/
 $(package)_suffix=qtxmlpatterns-opensource-src-$($(package)_version).tar.gz
 $(package)_file_name=qtbase-$($(package)_suffix)
 $(package)_sha256_hash=ed6c4c41492d9bd8fecc325592e1c5ab05125573c9463d1be6e1db0f8be8fc0a
