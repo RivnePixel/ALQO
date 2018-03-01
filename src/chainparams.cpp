@@ -107,12 +107,12 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // ALQO: 1 day
         nTargetSpacing = 1 * 60;  // ALQO: 1 minute
-        nLastPOWBlock = 475200;
+        nLastPOWBlock = 10;
         nMaturity = 110;
         nMasternodeCountDrift = 20;
 		nMasternodeColleteralLimxDev = 10000; //Params().MasternodeColleteralLimxDev()
         nModifierUpdateBlock = 1; // we use the version 2 for dmd
-        nMaxMoneyOut = 100000000 * COIN;
+        nMaxMoneyOut = 100000 * COIN;
 
         const char* pszTimestamp = "My coin start 14/02/2018 for work";
         CMutableTransaction txNew;
@@ -135,7 +135,7 @@ public:
 
         vSeeds.clear();
         
-		//vSeeds.push_back(CDNSSeedData("80.209.228.195", "80.209.228.195"));
+		vSeeds.push_back(CDNSSeedData("80.211.182.137", "80.211.182.137"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 16);
